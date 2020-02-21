@@ -1,0 +1,27 @@
+.multi-select {
+  position: relative;
+  border-collapse: initial;
+  display: table;
+  width: 55%;
+  background: initial;
+  color: #808080;
+  font-size: 1rem;
+  padding: 0 0 0 1rem;
+  border: 2px solid white;
+  border-radius: .66rem;
+  margin: 1rem;
+  box-shadow: 9px 9px 16px rgba(#808080, .5),
+  -9px -9px 16px white,
+  inset 9px 9px 16px rgba(#808080, .5),
+  inset -9px -9px 16px white;
+
+  .selected-options-box {
+    display: table-cell;
+    width: 35vw;
+    padding: .33rem 1rem 0 0;
+  }
+
+  .control-box {
+    width: 2rem;
+  }
+}

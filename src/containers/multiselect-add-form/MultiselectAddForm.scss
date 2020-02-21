@@ -1,0 +1,49 @@
+.modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  min-width: calc(25vw + 1rem);
+  min-height: calc(20vh + 1rem);
+  z-index: 99;
+
+  .multi-select-add-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0 2rem;
+    border: solid 2px white;
+    border-radius: 1rem;
+    background-color: #e5e5e5;
+    box-shadow: 9px 9px 16px rgba(#808080, .5),
+    -9px -9px 16px white,
+    inset 9px 9px 16px rgba(#808080, .5),
+    inset -9px -9px 16px white;
+    z-index: 99;
+    opacity: 1;
+    transition: opacity .6s;
+
+    .status-box {
+      position: absolute;
+      right: -3rem;
+      top: .66rem;
+
+      .attention {
+        color: #FC766A;
+      }
+
+      .success {
+        color: #00C89C;
+      }
+    }
+
+    .form__btn--submit {
+      margin: 2rem 0;
+    }
+
+    .tooltip {
+      margin-top: -.66rem;
+    }
+  }
+}

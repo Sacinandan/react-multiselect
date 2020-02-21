@@ -1,0 +1,41 @@
+@mixin gradient {
+  background: #e5e5e5 linear-gradient(170deg, #58E7FF 0%, #1760F3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #e5e5e5;
+}
+
+.header {
+  margin-bottom: 1rem;
+
+  &__title {
+    @include gradient();
+    font-size: calc(1vw + 1rem);
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0 2rem;
+  min-width: calc(25vw + 1rem);
+  min-height: calc(40vh + 1rem);
+  border: solid 2px white;
+  border-radius: 1rem;
+  box-shadow: 9px 9px 16px rgba(#808080, .5),
+              -9px -9px 16px white,
+              inset 9px 9px 16px rgba(#808080, .5),
+              inset -9px -9px 16px white;
+}

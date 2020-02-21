@@ -1,0 +1,64 @@
+@mixin neumorphism {
+  color: #3797f0;
+  background-color: initial;
+  box-shadow: 9px 9px 16px rgba(#808080, .5),
+  -9px -9px 16px white;
+  transition: .3s ease box-shadow;
+
+  &:hover {
+    color: #2b8af7;
+    box-shadow: inset 9px 9px 16px rgba(#808080, .5),
+    inset -9px -9px 16px white;
+    cursor: pointer;
+    transition: .2s ease box-shadow;
+  }
+}
+
+.btn-add-select {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  border: none;
+  border-radius: 50%;
+  font-size: .66rem;
+  font-weight: bold;
+  z-index: 1;
+  @include neumorphism();
+}
+
+.form__btn--submit {
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  width: auto;
+  font-weight: bold;
+  font-size: calc(1vw + .33rem);
+  border: none;
+  border-radius: .66rem;
+  @include neumorphism();
+}
+
+.btn-toggle {
+  position: absolute;
+  top: .9rem;
+  right: .5rem;
+  border: none;
+  text-align: center;
+  color: #3797f0;
+  font-weight: bold;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn-remove {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  background: transparent;
+  color: #FC766A;
+  cursor: pointer;
+}

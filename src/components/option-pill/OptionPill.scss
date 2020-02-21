@@ -1,0 +1,17 @@
+.selected-option {
+  border-radius: .33rem;
+  background-color: #e5e5e5;
+  display: inline-flex;
+  margin: .2rem;
+  padding: .2rem;
+  overflow: hidden;
+  box-shadow: 4px 4px 8px rgba(#808080, .5),
+  -4px -4px 8px white;
+
+  &__btn-remove {
+    margin-left: .33rem;
+    font-weight: bold;
+    color: #FC766A;
+    cursor: pointer;
+  }
+}

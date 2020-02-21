@@ -1,0 +1,27 @@
+.options-list {
+  position: absolute;
+  left: 0;
+  margin-top: 0;
+  padding: 1rem 0;
+  width: 100%;
+  list-style: none;
+  background-color: #e5e5e5;
+  border-radius: 1rem;
+  color: #3797f0;
+  box-shadow: 9px 9px 16px rgba(#808080, .5),
+  -9px -9px 16px white;
+  z-index: 3;
+
+  & .option {
+    padding-left: 1rem;
+    cursor: pointer;
+    &.active {
+      background-color: white;
+    }
+  }
+}
+
+.message {
+  color: #808080;
+  text-align: center;
+}
