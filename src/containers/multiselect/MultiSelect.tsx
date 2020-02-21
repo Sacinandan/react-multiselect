@@ -37,6 +37,7 @@ const MultiSelect: FC<IProps> = ({
                                  handleBlur,
                                  handleRemoveSelectedOption
                                }) => {
+  console.log('render MultiSelect')
   const filteredOptions = inputValue[id].value.trim()
     ? options.filter(option => RegExp(inputValue[id].value
       .toLowerCase()).test(option.value.toLowerCase()))

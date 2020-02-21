@@ -209,11 +209,10 @@ const MultiSelectsBox: FC<IProps> = ({ children, data }) => {
   const handleRemoveSelectedOption = (e: MouseEvent<HTMLSpanElement>,
                                       selectId: number,
                                       optionId: number): void => {
+
     const currentSelectedOptionsList: SelectedElement[] = [ ...selectedOptionsList ]
-    currentSelectedOptionsList[selectId].options
-      .splice(currentSelectedOptionsList[selectId].options
-        .findIndex(({ id }) => id === optionId), 1)
-    setSelectedOptionsList(selectedOptionsList)
+    currentSelectedOptionsList[selectId].options.splice(currentSelectedOptionsList[selectId].options.findIndex(({ id }) => id === optionId), 1)
+    setSelectedOptionsList(currentSelectedOptionsList)
   }
 
   const handleToggleAddForm = (e: MouseEvent<HTMLButtonElement>): void => {
@@ -223,6 +222,7 @@ const MultiSelectsBox: FC<IProps> = ({ children, data }) => {
 
   return (
     <>
+      { console.log('render Box') }
       { multiSelectsList.map(({
                                 id,
                                 name,
