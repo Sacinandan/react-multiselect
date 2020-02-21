@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0abf971993f72312fb50f207cb63cf14",
+    "revision": "3d90eb1d58104cd77258638adc14a979",
     "url": "/react-multiselect/index.html"
   },
   {
-    "revision": "11863bfff7e23146620f",
+    "revision": "c2900e627bf4bbf4737a",
     "url": "/react-multiselect/static/css/main.24de140d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-multiselect/static/js/2.e1f75afa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "11863bfff7e23146620f",
-    "url": "/react-multiselect/static/js/main.69eef181.chunk.js"
+    "revision": "c2900e627bf4bbf4737a",
+    "url": "/react-multiselect/static/js/main.85c7b1f9.chunk.js"
   },
   {
     "revision": "ecc689bd94173e68a9a6",
