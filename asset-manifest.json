@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-multiselect/static/css/main.24de140d.chunk.css",
+    "main.js": "/react-multiselect/static/js/main.69eef181.chunk.js",
+    "main.js.map": "/react-multiselect/static/js/main.69eef181.chunk.js.map",
+    "runtime-main.js": "/react-multiselect/static/js/runtime-main.279f0bbb.js",
+    "runtime-main.js.map": "/react-multiselect/static/js/runtime-main.279f0bbb.js.map",
+    "static/js/2.e1f75afa.chunk.js": "/react-multiselect/static/js/2.e1f75afa.chunk.js",
+    "static/js/2.e1f75afa.chunk.js.map": "/react-multiselect/static/js/2.e1f75afa.chunk.js.map",
+    "index.html": "/react-multiselect/index.html",
+    "precache-manifest.1ecb76c067188248ab080bb4dfe32868.js": "/react-multiselect/precache-manifest.1ecb76c067188248ab080bb4dfe32868.js",
+    "service-worker.js": "/react-multiselect/service-worker.js",
+    "static/css/main.24de140d.chunk.css.map": "/react-multiselect/static/css/main.24de140d.chunk.css.map",
+    "static/js/2.e1f75afa.chunk.js.LICENSE.txt": "/react-multiselect/static/js/2.e1f75afa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.279f0bbb.js",
+    "static/js/2.e1f75afa.chunk.js",
+    "static/css/main.24de140d.chunk.css",
+    "static/js/main.69eef181.chunk.js"
+  ]
+}
